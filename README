@@ -1,0 +1,18 @@
+##############################################################################################
+										README
+PIC (Pausing Index Calculator): quick calculation of pausing index of genes of next-generation
+sequencing data.
+
+
+Jiahuan Chen: chenjiahuan@sjtu.edu.cn or yydq2686@126.com
+Shanghai Center for Systems Biomedicine, Shanghai Jiao Tong University
+##############################################################################################
+
+
+Brief:
+Pausing is an essential process in gene transcription, particularly in signal-responsive pathways.
+We thus developed this program to help you calculate Pausing Index of genes. For detailed 
+manipulation, please refers to "README_details.txt".
+
+
+Enjoy and thanks for your precious feedback!   

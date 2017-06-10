@@ -61,7 +61,7 @@ Usage: Gene Info extraction [-h] [--gif GTF] [--TSSup TSSUP] [--TSSdown TSSDOWN]
 ### Optional arguments:
 `-h`, —help	show this help message and exit
 
-`--gtf` GTF	the gene annotation file. You should delete titles in this file if exists. Also, please make consistence between the gif and you reference genome.
+`--gtf` GTF	the gene annotation file. You should delete titles in this file if exists. Also, please make consistence between the gif and you reference genome. The gtf annotation file can be downloaded from websites like UCSC and GENCODE.
 
 `--TSSup` TSSUP	the distance upstream of TSS
 

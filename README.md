@@ -1,8 +1,9 @@
 # INTODUCTION
 **In brief, PIC is a program that helps you calculating pausing index from your next-generation sequencing (NGS) samples at functional regions (TSS & Gene body).**
 
+RNAPII pausing is a transcription event that RNAPII moves to -30-50bp of TSS and pauses there after engaged. Only when some protein complex like pTEFb come to release the Pausing, RNAPII could elongate to gene body and produce full-length RNA. RNAPII has been implicated as a critical rate-limit step and irreplaceable check point for mRNA transcription.
 
-We developed PIC for easier and more accurate calculation of pausing index. A user can select arbitrary regions around TSS and gene body.For pausing index calculation, you can use more stringent filtrations, and you can use different modes to output your preferences.
+We developed PIC for easier and more accurate calculation of pausing index. A user can use default or self-defined regions around TSS and gene body to generate the pausing index. Users can use more stringent filtrations, and they can use different modes to output their preferences.
 
 
 # PREREQUISITE

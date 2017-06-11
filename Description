@@ -5,7 +5,7 @@ Package: PIC
 Type: Package
 Version: 1.0
 Date: 2017-06-06
-Author: Jiahuan Chen, Bing Zhang <bingzhang@sjtu.edu.cn>
+Author: Jiahuan Chen, Daniel Day, Bing Zhang <bingzhang@sjtu.edu.cn>
 Depends: samtools, bedtools
 Maintainer: Jiahuan Chen <chenjiahuan@sjtu.edu.cn or yydq2686@126.com>
 

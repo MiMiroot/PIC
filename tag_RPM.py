@@ -23,8 +23,8 @@ for line in ChIP_BAM:
 Input_BAM = os.popen('samtools view -q ' + args.min + ' -c ' + args.input)
 for line in Input_BAM:
 	Input_total = line.strip()
-scaling_ChIP = float(int(ChIP_total)/1000000)
-scaling_Input = float(int(Input_total)/1000000)
+scaling_ChIP = float(float(ChIP_total)/1000000)
+scaling_Input = float(float(Input_total)/1000000)
 print 'The scaling factor for ChIP is ', str(scaling_ChIP)
 print 'The scaling factor for Input is ', str(scaling_Input)
 

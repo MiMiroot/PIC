@@ -99,3 +99,6 @@ usage: Calculation of Pausing Index [-h] [--tags TAGS] [--min MIN] [--longest] [
 `--longest`	The script will turn to output the longest isoform if this mode is turned on, otherwise, the script will output the isoform 		with the strongest signal at TSSR.
 
 `--anno` ANNO	offer gene symbols to gene_id
+
+# Publication
+Day, D. S., Zhang, B., Stevens, S. M., Ferrari, F., Larschan, E. N., Park, P. J., & Pu, W. T. (2016). Comprehensive analysis of promoter-proximal RNA polymerase II pausing across mammalian cell types. Genome biology, 17(1), 120.

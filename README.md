@@ -102,5 +102,6 @@ usage: Calculation of Pausing Index [-h] [--tags TAGS] [--min MIN] [--longest] [
 
 # Publication
 Chen, J., Y. Fu, D.S. Day, Y. Sun, S. Wang, X. Liang, F. Gu, F. Zhang, S.M. Stevens, P. Zhou, K. Li, Y. Zhang, R.-z. Lin, L.E.H. Smith, J. Zhang, K. Sun, J.M. Melero-Martin, Z. Han, P.J. Park, B. Zhang, and W.T. Pu (2017). "VEGF amplifies transcription through ETS1 acetylation to enable angiogenesis." Nature Communications 8(1): p. 383.
+
 Day, D. S., Zhang, B., Stevens, S. M., Ferrari, F., Larschan, E. N., Park, P. J., & Pu, W. T. (2016). Comprehensive analysis of promoter-proximal RNA polymerase II pausing across mammalian cell types. Genome biology, 17(1), 120.
 

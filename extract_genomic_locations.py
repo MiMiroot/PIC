@@ -58,16 +58,16 @@ for line in annotation_file.readlines():
 				end1 = chr_length[chromosome]			
 			allgenebody.write(chromosome + '\t' + str(start1) + '\t' + str(end1) + '\t' + transcript_id + '\t' + score + '\t' + strand + '\n')
 		elif strand == "-":
-			end0 = int(location2) + args.TSSup -1
-			start0 = int(location2) - args.TSSdown + 1
+			start0 = int(location2) + args.TSSup -1
+			end0 = int(location2) - args.TSSdown + 1
 			if start0 > chr_length[chromosome]:
 				start0 = chr_length[chromosome]
-			allgenetss.write(chromosome + '\t' + str(start0) + '\t' + str(end0) + '\t' + transcript_id + '\t' + score + '\t' + strand + '\n')
-			end1 = end0
-			start1 = int(location1) - args.GBdown + 1
+			allgenetss.write(chromosome + '\t' + str(end0) + '\t' + str(start0) + '\t' + transcript_id + '\t' + score + '\t' + strand + '\n')
+			start1 = end0
+			end1 = int(location1) - args.GBdown + 1
 			if end1 < 0:
 				end1 = 0
-			allgenebody.write(chromosome + '\t' + str(start1) + '\t' + str(end1) + '\t' + transcript_id + '\t' + score + '\t' + strand + '\n')
+			allgenebody.write(chromosome + '\t' + str(end1) + '\t' + str(start1) + '\t' + transcript_id + '\t' + score + '\t' + strand + '\n')
 
 annotation_file.close()
 allgeneoutput.close()

@@ -80,7 +80,7 @@ if args.longest:
 			transcript_id = long_dir[key][0].strip().split('\t')[0]
 			content = long_dir[key][0].strip().split('\t')
 			longoutput.write(transcript_id + '\t' + '\t'.join(name_match[transcript_id]) + '\t' +
-							 '\t'.join(content[1:]) + '\t' + long_dir[symbol][-1] + '\n')
+							 '\t'.join(content[1:]) + '\t' + long_dir[key][-1] + '\n')
 	longoutput.close()
 else:
 	print "selecting isoform with the strongest RNAP2 ChIP-seq singal at TSSR..."
